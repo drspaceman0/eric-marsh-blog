@@ -5,6 +5,7 @@ export default function IndexPage() {
   return (
     <>
       <Helmet>
+        <html lang="en" />
         <meta charSet="utf-8" />
         <meta name="description" content="Web Developer Blog" />
         <title>Eric Marsh Blog</title>
