@@ -1,8 +1,15 @@
 import * as React from "react"
+import { Helmet } from "react-helmet"
 
 export default function IndexPage() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <meta name="description" content="Web Developer Blog" />
+        <title>Eric Marsh Blog</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <div className="p-2 bg-gradient-to-r from-sky-500 to-indigo-500 h-full min-h-screen relative flex">
         <div className="bg-backgroundColor">
           <div className="w-7/10 my-14 mx-auto">
