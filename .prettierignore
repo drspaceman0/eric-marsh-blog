@@ -1,0 +1,6 @@
+# Ignore artifacts:
+.cache
+.vscode
+animation_backups
+node_modules
+public

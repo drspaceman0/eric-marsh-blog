@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.paper {
+    background: #f3f0f0;
+  } 
+  
+  .logoAnimation:hover {
+    animation: rotateAnimation 1.2s 1 ease-in-out;
+  }
+
+  @keyframes rotateAnimation {
+    to {
+      transform: perspective(120px) rotateY(-360deg);
+    }
+  }
+
+  .underline-animation {
+    transform: scaleX(1);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .underline-animation:before {
+    content: "";
+    position: absolute;
+    display: block;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, #0ea5e9, #6366f1);
+    height: 4px; 
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+  }
+
+  .underline-animation:hover:before,
+  .underline-animation:focus:before,
+  .underline-animation:active:before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
