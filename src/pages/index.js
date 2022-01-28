@@ -9,13 +9,13 @@ export default function IndexPage() {
         <meta charSet="utf-8" />
         <meta name="description" content="Web Developer Blog" />
         <title>Eric Marsh Blog</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        {/* <link rel="canonical" href="http://ericmarshblog.com" /> */}
       </Helmet>
       <div className="p-2 bg-gradient-to-r from-sky-500 to-indigo-500 h-full min-h-screen relative flex">
         <div className="bg-backgroundColor">
           <div className="w-7/10 my-14 mx-auto">
             {/* nav */}
-            <header className="flex flex-row bg-slate-300 h-12">
+            <header className="flex flex-row h-12">
               <div
                 className="logoAnimation select-none w-12 h-12 flex items-center justify-center mr-3 bg-titleTextColor text-backgroundColor font-bold text-2xl leading-snug tracking-wide">
                 EM
@@ -23,10 +23,10 @@ export default function IndexPage() {
             </header>
             <main>
               {/* intro */}
-              <section className="mt-4 md:mt-10 bg-slate-300">
+              <section className="mt-4 md:mt-10 ">
                 <h1 className="mb-2 md:mb-4 text-4xl md:text-5xl text-titleTextColor font-bold leading-tight text-left">
                   <span className="whitespace-nowrap">Hi!👋🏼I'm </span>
-                  <span className="whitespace-nowrap"><span className="text-sky-500">Eric Marsh</span>, </span>
+                  <span className="whitespace-nowrap"><span className="text-primaryColor">Eric Marsh</span>, </span>
                   a front-end web developer.
                 </h1>
                 <p className="text-lg md:text-xl text-slate-900 leading-normal tracking-normal text-left">
@@ -38,7 +38,7 @@ export default function IndexPage() {
               </section>
               <div className="grid grid-cols-1 md:grid-cols-2 md:gap-12">
                 {/* experience  */}
-                <section className="mt-4 md:mt-10 bg-slate-300">
+                <section className="mt-4 md:mt-10 ">
                   <h2 className="mb-2 md:mb-4 text-2xl md:text-3xl text-titleTextColor font-bold leading-tight text-left">
                     Experience
                   </h2>
@@ -51,7 +51,7 @@ export default function IndexPage() {
                   </p>
                 </section>
                 {/* projects  */}
-                <section className="mt-4 md:mt-10 bg-slate-300">
+                <section className="mt-4 md:mt-10 ">
                   <h2 className="mb-2 md:mb-4 text-2xl md:text-3xl text-titleTextColor font-bold leading-tight text-left">
                     Projects
                   </h2>
@@ -67,7 +67,7 @@ export default function IndexPage() {
                   </ul>
                 </section>
               </div>
-              <section className="mt-4 md:mt-10 bg-slate-300 h-full">
+              <section className="mt-4 md:mt-10 h-full">
                 <h2 className="mb-2 md:mb-4 text-2xl md:text-3xl text-titleTextColor font-bold leading-tight text-left">
                   Contact
                 </h2>
