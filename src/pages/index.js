@@ -25,9 +25,7 @@ export default function IndexPage() {
               {/* intro */}
               <section className="mt-4 md:mt-10 ">
                 <h1 className="mb-2 md:mb-4 text-4xl md:text-5xl text-titleTextColor font-bold leading-tight text-left">
-                  <span className="whitespace-nowrap">Hi!👋🏼I'm </span>
-                  <span className="whitespace-nowrap"><span className="text-primaryColor">Eric Marsh</span>, </span>
-                  a front-end web developer.
+                  Hi!👋🏼I'm <span className="text-primaryColor">Eric Marsh</span>, a front-end web developer.
                 </h1>
                 <p className="text-lg md:text-xl text-slate-900 leading-normal tracking-normal text-left">
                   I've been making websites for about 7 years now. Most of them have
@@ -59,7 +57,7 @@ export default function IndexPage() {
                     <li><a className="w-fit underline-animation text-linkTextColor hover:text-linkTextColorHover active:text-linkTextColorActive" href="https://www.idahospudsman.com/"
                       target="_blank">
                       Idaho Spudsman</a></li>
-                    <li><a className="w-fit underline-animation text-linkTextColor hover:text-linkTextColorHover active:text-linkTextColorActive" href="#" target="_blank">
+                    <li><a className="w-fit underline-animation text-linkTextColor hover:text-linkTextColorHover active:text-linkTextColorActive" href="https://animal-crossing-birthday-tracker.netlify.app/" target="_blank">
                       AC Music Generator</a></li>
                     <li><a className="w-fit underline-animation text-linkTextColor hover:text-linkTextColorHover active:text-linkTextColorActive" href="https://codepen.io/drspaceman0/"
                       target="_blank">
