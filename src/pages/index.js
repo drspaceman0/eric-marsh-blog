@@ -9,11 +9,11 @@ export default function IndexPage() {
         <meta charSet="utf-8" />
         <meta name="description" content="Web Developer Blog" />
         <title>Eric Marsh Blog</title>
-        {/* <link rel="canonical" href="http://ericmarshblog.com" /> */}
+        <link rel="canonical" href="https://www.ericmarshblog.com/" />
       </Helmet>
-      <div className="p-2 bg-gradient-to-r from-sky-500 to-indigo-500 h-full min-h-screen relative flex">
-        <div className="bg-backgroundColor">
-          <div className="w-7/10 my-14 mx-auto">
+      <div className="p-2 bg-gradient-to-r from-sky-500 to-indigo-500 h-full min-h-screen relative flex ">
+        <div className="bg-backgroundColor w-full mx-auto">
+          <div className="w-7/10 my-14 max-w-6xl mx-auto  ">
             {/* nav */}
             <header className="flex flex-row h-12">
               <div
@@ -28,10 +28,10 @@ export default function IndexPage() {
                   Hi!👋🏼I'm <span className="text-primaryColor">Eric Marsh</span>, a front-end web developer.
                 </h1>
                 <p className="text-lg md:text-xl text-slate-900 leading-normal tracking-normal text-left">
-                  I've been making websites for about 7 years now. Most of them have
-                  been for fun, but I have also made websites and web applciations
-                  for clients. Lately, I have been making web apps using React and
-                  Gatsby, styling with TailwindCSS, and hosting on Netlify.
+                  I've been curating web experiences for 5 years now.
+                  Most of them have been for fun, but I have also made websites and applications for clients.
+                  Lately, I have been making web apps using React and Gatsby, styling with TailwindCSS, and hosting on Netlify.
+                  Feel free to contact me if you want to work on something awesome together!
                 </p>
               </section>
               <div className="grid grid-cols-1 md:grid-cols-2 md:gap-12">
@@ -41,11 +41,10 @@ export default function IndexPage() {
                     Experience
                   </h2>
                   <p className="text-lg md:text-xl text-slate-900 leading-normal tracking-normal text-left">
-                    I've been making websites for about 7 years now. Most of them
-                    have been for fun, but I have also made websites and web
-                    applciations for clients. Lately, I have been making web apps
-                    using React and Gatsby, designing with TailwindCSS, and hosting
-                    on Netlify.
+                    I started my career by getting a degree in Computer Science.
+                    From here, I got a job as a full-stack developer at Yardi Systems.
+                    I also freelanced web development work, where I developed a WordPress page for the aeronautics company AreoLEDs.
+                    Now I am challenging myself to learn the latest web technology to make fast, responsive and accessible websites for projects I am passionate about.
                   </p>
                 </section>
                 {/* projects  */}
@@ -58,7 +57,7 @@ export default function IndexPage() {
                       target="_blank">
                       Idaho Spudsman</a></li>
                     <li><a className="w-fit underline-animation text-linkTextColor hover:text-linkTextColorHover active:text-linkTextColorActive" href="https://animal-crossing-birthday-tracker.netlify.app/" target="_blank">
-                      AC Music Generator</a></li>
+                      Animal Crossing Music Generator</a></li>
                     <li><a className="w-fit underline-animation text-linkTextColor hover:text-linkTextColorHover active:text-linkTextColorActive" href="https://codepen.io/drspaceman0/"
                       target="_blank">
                       Codepen Profile</a></li>
