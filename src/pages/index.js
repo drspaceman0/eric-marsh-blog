@@ -53,6 +53,9 @@ export default function IndexPage() {
                     Projects
                   </h2>
                   <ul className="list-disc list-inside text-lg md:text-xl text-slate-900 leading-normal whitespace-nowrap">
+                  <li><a className="w-fit underline-animation text-linkTextColor hover:text-linkTextColorHover active:text-linkTextColorActive" href="https://nonlooping-gif.netlify.app/"
+                      target="_blank">
+                      Non-Looping Gif Generator</a></li>
                     <li><a className="w-fit underline-animation text-linkTextColor hover:text-linkTextColorHover active:text-linkTextColorActive" href="https://www.idahospudsman.com/"
                       target="_blank">
                       Idaho Spudsman</a></li>
